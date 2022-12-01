@@ -4,6 +4,7 @@ let divisible = document.getElementById("divisible")
 function number(){
   let random = Math.random() * 10
   let result = Math.ceil(random)
+  let output;
   if(result % 2 == 0){
     output = "This is an even number"
   }else{
